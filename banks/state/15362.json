@@ -1,0 +1,204 @@
+{
+  "lastAttemptAt": "2026-09-25T17:41:43.752Z",
+  "lastAttemptResult": "candidate",
+  "proposals": [
+    {
+      "approval": {
+        "path": "evidence/15362/approval-990ec1817314115ddc2e1382dbc979f7637c213fdf5a241ee6a6f5883a13a0b1.json",
+        "sha256": "990ec1817314115ddc2e1382dbc979f7637c213fdf5a241ee6a6f5883a13a0b1"
+      },
+      "assessment": {
+        "currency": {
+          "basis": "Подтверждена актуальность найденного кандидата, НЕ current SVG: live official homepage rates25.09.2026/news24.09.2026 использует modern two-band mark; независимая датированная публикация09.07.2026 сообщает смену и показывает old/new. Last-Modified используется лишь как metadata, не единственное доказательство.",
+          "finding": "confirmed"
+        },
+        "identity": {
+          "basis": "Официальные www.mtbank.by homepage/footer/news именуют ЗАО МТбанк Беларусь; standalone SVG прямо связан head homepage. НашаНіва и ph4 связывают старый/новый мотив именно с этим банком, не mtb.ua/MTBankUSA.",
+          "finding": "confirmed"
+        },
+        "independenceRationale": "Все mtbank.by pages/assets — одна первичная публикация банка. НашаНіва/CDN с атрибуцией Myfin — одна репортёрская цепочка, её зеркала/фото не считаются отдельными источниками. ph4 подтверждает старую identity, не freshness; БелоНовости вероятно пересказывает пресс-релиз и не добавляет независимого подтверждения. ZenPlugins является контекстом интеграции, не доказательством логотипа.",
+        "uncertainties": [
+          "Подготовка, безопасность/конвертация, окончательный размер и все renderer-проверки кандидата отложены в06; human approval отсутствует."
+        ],
+        "variant": {
+          "basis": "Кандидат сохраняет роль самостоятельного цветного corporate mark без wordmark и фоновой tile. Его viewBox512×512 содержит современный синий круг с оранжевой и красной лентами. Current63.8×51.39 имеет старые три красные ленты; различие содержательное, не сериализация. Raw official bytes не нормализовались.",
+          "finding": "confirmed"
+        }
+      },
+      "assetPublication": {
+        "path": "asset-publication/7594175c2c2f29778614949893ca7c93e249786a20ec46358b5804fa44090987.json",
+        "sha256": "7594175c2c2f29778614949893ca7c93e249786a20ec46358b5804fa44090987"
+      },
+      "baseIconHash": "28fe90aef38236914b61e1e6ed5e5f2547736f82b6c0ea2f96c7d71c70da5084",
+      "candidate": {
+        "detailsJudgement": "Source и final SVG визуально совпадают; actual Compose Desktop XML/painterResource и Android Compose/native light/dark сохраняют контуры, цвета, две полосы и прозрачные промежутки. Обрезки и потери деталей не наблюдалось.",
+        "faithful": true,
+        "iconHash": "8bf917856723799fba592068f64d061d0bfb43a17295a2b247ab7af978df76da",
+        "path": "evidence/15362/candidate-8bf917856723799fba592068f64d061d0bfb43a17295a2b247ab7af978df76da.svg",
+        "proportionsJudgement": "Исходные 512pt, viewBox, четыре paths и transform не изменены; геометрия не подгонялась к54dp.",
+        "rationale": "Официальный самостоятельный цветной знак актуального ребрендинга; два цветных пояса вместо трёх старых красных полос.",
+        "role": "standalone sign without wordmark or app tile",
+        "sha256": "8bf917856723799fba592068f64d061d0bfb43a17295a2b247ab7af978df76da",
+        "sourceAssetUrl": "https://www.mtbank.by/assets/images/favicon/safari-pinned-tab.svg",
+        "sourceUrl": "https://www.mtbank.by/",
+        "transforms": [
+          "Удалён только внешний DOCTYPE; остальные bytes исходника сохранены."
+        ],
+        "variant": "full-colour transparent standalone mark",
+        "visibleDiff": true,
+        "visibleDiffExplanation": "Три узкие красные полосы/старый синий заменяются двумя широкими оранжевой и красной полосами/новым синим кругом."
+      },
+      "candidateIconHash": "8bf917856723799fba592068f64d061d0bfb43a17295a2b247ab7af978df76da",
+      "checkedAt": "2026-09-25T17:41:43.752Z",
+      "humanReview": "approved",
+      "mr": {
+        "base": "banks",
+        "baseCommit": "1ec0dfe18760f5d3caf932f9c6efdcfcdec42bbd",
+        "bodySha256": "b1021dae4b65587089f56206bfec15d9a16183e10b686d355e2fb7a7cd274a30",
+        "head": "icons/15362-live-20260927",
+        "headCommit": "07826b4de8b4c90f78c0299660022431702802a2",
+        "number": 1,
+        "observedAt": "2026-09-27T17:18:53.554829Z",
+        "state": "open",
+        "target": "b3er/brands",
+        "title": "Bank icon: МТБанк (Company.id 15362)",
+        "url": "https://github.com/b3er/brands/pull/1"
+      },
+      "reason": "Найден неподготовленный официальный кандидат нового standalone corporate mark МТБанка BY. Live homepage/news использует две оранжевую/красную ленты; датированное09.07.2026 сравнение подтверждает ребрендинг и подписывает трёхполосный знак прежним. Текущий SVG не подтверждён как актуальный и не изменён. Его новый Desktop light/dark технически наблюдён отдельно: evidence/15362/current-desktop.json; candidate ещё не проходил подготовку, безопасность, каталог или review.",
+      "reviewPackage": {
+        "path": "evidence/15362/candidate-97433117be712167e7fd3efefee5deca740467f5c45e95371c5a75958216be7b.json",
+        "sha256": "97433117be712167e7fd3efefee5deca740467f5c45e95371c5a75958216be7b"
+      },
+      "sourceCandidate": {
+        "iconHash": "fb57a0b7ad0e99dde1033e7e2df06ea068da2a272b6f82e1b59413682ab434d7",
+        "path": "evidence/15362/official/safari-pinned-tab.svg",
+        "rationale": "Прямо подключённый homepage standalone SVG соответствует новому corporate mark из header и датированной rebrand-публикации; это fetched source, не подготовленный/одобренный replacement.",
+        "sourceAssetUrl": "https://www.mtbank.by/assets/images/favicon/safari-pinned-tab.svg",
+        "sourceUrl": "https://www.mtbank.by/"
+      },
+      "sources": [
+        {
+          "assetUrl": "https://www.mtbank.by/assets/images/spriteMobile.svg",
+          "checkedAt": "2026-09-25T17:28:05Z",
+          "independenceGroup": "mtbank.by-official-site",
+          "kind": "official",
+          "observation": "Live МТбанк homepage, no cross-organization redirect; header uses spriteMobile.svg#logo--colored, head links safari-pinned-tab.svg and apple-touch-icon.png; footer names ЗАО МТбанк, 1994–2026; exchange rates show updated 25.09.2026 16:04. Screenshot homepage.webp.",
+          "url": "https://www.mtbank.by/"
+        },
+        {
+          "assetUrl": "https://www.mtbank.by/assets/images/spriteMobile.svg",
+          "checkedAt": "2026-09-25T17:28:05Z",
+          "independenceGroup": "mtbank.by-official-site",
+          "kind": "official",
+          "observation": "News page uses same header symbol and lists 2026-09-24 as latest article date; screenshot news.webp. Active use, not independent brand-source organization.",
+          "url": "https://www.mtbank.by/about/news/"
+        },
+        {
+          "assetUrl": "https://www.mtbank.by/assets/images/favicon/safari-pinned-tab.svg",
+          "checkedAt": "2026-09-25T17:28:05Z",
+          "independenceGroup": "mtbank.by-official-site",
+          "kind": "official",
+          "observation": "Exact standalone full-color mark linked from live homepage as mask-icon; HTTP 200, no redirect, 1370 bytes, SHA-256 fb57a0b7ad0e99dde1033e7e2df06ea068da2a272b6f82e1b59413682ab434d7. Blue #2334C8 circle with orange #FF5912 and red #E42C26 bands; differs materially from frozen three-red-band sign. Last-Modified 2026-07-10, server metadata only.",
+          "url": "https://www.mtbank.by/assets/images/favicon/safari-pinned-tab.svg"
+        },
+        {
+          "assetUrl": "https://www.mtbank.by/assets/images/spriteMobile.svg",
+          "checkedAt": "2026-09-25T17:28:05Z",
+          "independenceGroup": "mtbank.by-official-site",
+          "kind": "official",
+          "observation": "Exact header logo sprite HTTP 200, no redirect, 37149 bytes, SHA-256 2cd0b3f0f573de37ef58abca1cfaee7e50ae571750f9ca662fdabadefed99db4; active #logo--colored wordmark contains contemporary two-band round mark. Last-Modified 2026-09-21, server metadata only.",
+          "url": "https://www.mtbank.by/assets/images/spriteMobile.svg"
+        },
+        {
+          "assetUrl": "https://www.mtbank.by/assets/images/favicon/apple-touch-icon.png",
+          "checkedAt": "2026-09-25T17:28:05Z",
+          "independenceGroup": "mtbank.by-official-site",
+          "kind": "official",
+          "observation": "Exact linked app icon HTTP 200, no redirect, 3891 bytes, SHA-256 0b63234c0395d459d0a013abce26ba46cdddad52acdf0aa9ec1b0e97ac8712f7; modern round blue/two-band mark on white square, not transparent standalone role.",
+          "url": "https://www.mtbank.by/assets/images/favicon/apple-touch-icon.png"
+        },
+        {
+          "assetUrl": "https://d2accbiqacj5y8.cloudfront.net/img/w840d4webp1/photos/z_2026_07/9bgs79lejydiwlsgobcmdraql1k9gbm7-vuurn.jpeg.webp",
+          "checkedAt": "2026-09-25T17:33:53Z",
+          "independenceGroup": "myfin-event-photo-republished-nashaniva-2026-07-09",
+          "kind": "third-party",
+          "observation": "Зеркало страницы «Наша Ніва» (канонический адрес https://nashaniva.com/ru/399565; прямой TLS-запрос оборвался), HTTP 200. Публикация 09.07.2026 19:48 +03:00: председатель правления представил обновлённый логотип, изменён шрифт, к синему и красному добавлен оранжевый; материал ссылается на Myfin.by, фото подписано Myfin.by. Сохранён исходный ответ изображения nn-new.webp, 840×473, SHA-256 dfa70a9f0a96fa4e9c0147a71d37d5e6fb9378a4e2f96528f255b70707158378: на стенде новый отдельный синий круг пересекают две цветные полосы (оранжевая и красная), рядом новый шрифт МТбанк. Это фото полного оформления, не готовый отдельный векторный знак.",
+          "url": "https://d2accbiqacj5y8.cloudfront.net/ru/399565"
+        },
+        {
+          "assetUrl": "https://d2accbiqacj5y8.cloudfront.net/img/w732d4webp1/photos/z_2026_07/photo_2023-03-14_14-28-50-nznwb.jpg.webp",
+          "checkedAt": "2026-09-25T17:33:53Z",
+          "independenceGroup": "myfin-event-photo-republished-nashaniva-2026-07-09",
+          "kind": "third-party",
+          "observation": "На той же статье 09.07.2026 второе изображение прямо подписано «Прежний логотип МТБанка». Сохранён nn-old.webp, 732×488, SHA-256 e27dc1540696f6b7b51203a0c9b2c8e381c7ee6b7c1471248974fbbdd521d217: на вывеске синий круг/закруглённый знак с тремя красными диагональными полосами и прежний шрифтовой блок. Две фотографии одной публикации не считать независимыми источниками.",
+          "url": "https://d2accbiqacj5y8.cloudfront.net/ru/399565"
+        },
+        {
+          "assetUrl": "https://www.ph4.ru/DL/LOGO_ICON/m/mtbank_by.gif",
+          "checkedAt": "2026-09-25T17:33:53Z",
+          "independenceGroup": "ph4-undated-mtbank-by-gallery",
+          "kind": "third-party",
+          "observation": "HTTP 200; сторонняя коллекция прямо указывает ЗАО МТБанк, Беларусь, Минск, mtbank.by; отдельный раздел «Иконки в векторе». Сохранён ph4-icon.gif 200×159, SHA-256 271b84eeca012c7ae2450f5cceb222c22baeacea65e159471a9b8356274dc1d7: отдельный синий круг с тремя красными диагональными полосами, белый фон. Даты загрузки/актуализации нет; это corroboration принадлежности старого знака, НЕ текущей актуальности и не точной геометрии SVG.",
+          "url": "https://www.ph4.ru/logo_logo.php?d=mtbank_by&nvn=_"
+        },
+        {
+          "assetUrl": "https://www.ph4.ru/DL/LOGO/m/mtbank_by_.gif",
+          "checkedAt": "2026-09-25T17:33:53Z",
+          "independenceGroup": "ph4-undated-mtbank-by-gallery",
+          "kind": "third-party",
+          "observation": "Тот же недатированный архив: сохранён ph4-logo.gif 350×119, SHA-256 965b8836161d8775cf1585f2bd3653116cbe34e17e0cd354eb77cc5e76ab1250. Старый трёхполосный знак внутри полного логотипа с «МТБанк» и подписью «Банк свежих решений»; не самостоятельный актуальный знак, не отдельное независимое свидетельство от ph4-icon.gif.",
+          "url": "https://www.ph4.ru/logo_logo.php?d=mtbank_by&nvn=_"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-09-25T17:33:53Z",
+          "independenceGroup": "mtbank-rebrand-press-release-2026-07",
+          "kind": "third-party",
+          "observation": "HTTP 200, страница датирована 15.07.2026 (metadata published 2026-07-15T13:48:39Z); текст сообщает об официальном представлении обновления 9 июля, сохранённом узнаваемом, но упрощённом значке, синем круге, красном луче и добавленном оранжевом луче. Формулировки похожи на пересказ банковского пресс-релиза; не засчитывать как независимое свидетельство от самого банка. Изображение og:image https://belnovosti.store/wp-content/uploads/2026/07/ebbaa03f2d00443f7c74a6142e7c3d09.png вернуло HTTP 200 с нулём байт, поэтому assetUrl=null и для визуального доказательства оно непригодно.",
+          "url": "https://belnovosti.store/ot-smeny-logotipa-do-obnovlennoi-filosofii-mtbank-obiavil-o-rebrendinge/"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-09-25T17:33:53Z",
+          "independenceGroup": "zenplugins-issue-884",
+          "kind": "zenplugins-issue",
+          "observation": "GitHub REST HTTP 200; открытая issue создана 19.08.2025, «МТБанк Беларусь (MTBank Belarus) получатель ЕРИП платежа». Подтверждает отношение имени к белорусской интеграции, но касается данных ЕРИП, не логотипа.",
+          "url": "https://github.com/zenmoney/ZenPlugins/issues/884"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-09-25T17:33:53Z",
+          "independenceGroup": "zenplugins-issue-635",
+          "kind": "zenplugins-issue",
+          "observation": "GitHub REST HTTP 200; открытая issue создана 28.03.2022, «[MTBank/МТБанк] Дублируются траты на счету». Два screenshot-вложения отражают проблему приложения, не аттестуют актуальную самостоятельную иконку; не засчитывать как независимое свидетельство бренда.",
+          "url": "https://github.com/zenmoney/ZenPlugins/issues/635"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-09-25T17:33:53Z",
+          "independenceGroup": "zenplugins-pr-1072",
+          "kind": "zenplugins-pr",
+          "observation": "GitHub REST HTTP 200; PR «[mtbank] Prefer personal DBO contract» создан 17.06.2026, закрыт и слит 10.07.2026. Актуальная по времени интеграция MTBank, но изменение контракта входа, не логотипа; не доказательство иконки.",
+          "url": "https://github.com/zenmoney/ZenPlugins/pull/1072"
+        },
+        {
+          "assetUrl": null,
+          "checkedAt": "2026-09-25T17:33:53Z",
+          "independenceGroup": "zenplugins-pr-272",
+          "kind": "zenplugins-pr",
+          "observation": "GitHub REST HTTP 200; исходный PR «[mtbank] Initial version of plugin for MTBank» создан и слит 26.03.2019. Техническое происхождение плагина, не материал о фирменном знаке.",
+          "url": "https://github.com/zenmoney/ZenPlugins/pull/272"
+        }
+      ],
+      "status": "open",
+      "verification": {
+        "checkedAt": "2026-09-27T16:34:46.361777Z",
+        "compose": "1.12.0",
+        "converter": "com.android.tools:sdk-common:32.4.0",
+        "sourceSha256": "8bf917856723799fba592068f64d061d0bfb43a17295a2b247ab7af978df76da",
+        "xmlSha256": "9b55d77814bf9e191d11cc6b92a068b6fed84a49490eac800f9378250392dbc1"
+      }
+    }
+  ],
+  "schemaVersion": 1
+}
